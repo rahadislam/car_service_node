@@ -72,7 +72,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('welcome genius server!!!!');
+    res.send('welcome genius server with heroku!!!!');
 })
 
 app.listen(port, () => {

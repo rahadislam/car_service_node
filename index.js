@@ -12,7 +12,7 @@ const res = require('express/lib/response');
 app.use(cors());
 app.use(express.json());
 
-//mongodb connection 
+//mongodb connection dont
 
 
 const uri = `mongodb+srv://${process.env.USER_DB}:${process.env.PASSWORD_DB}@cluster0.s8dmd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
